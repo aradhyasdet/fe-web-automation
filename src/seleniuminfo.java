@@ -13,7 +13,7 @@ public class seleniuminfo {
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getPageSource());
-		driver.quit();
+		driver.close();
 		}
 
 }
