@@ -1,3 +1,5 @@
+package test;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -24,7 +26,7 @@ public class FormTest {
     private static final By GENDER_FEMALE = By.xpath("//select[@id='exampleFormControlSelect1']//option[2]");
 
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\dell\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+       // System.setProperty("webdriver.chrome.driver", "C:\\Users\\dell\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
 
         try {
